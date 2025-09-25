@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shravan Nikhil - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>Shravan Nikhil</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#publications" class="nav-link">Publications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Shravan Nikhil</h1>
+                    <p class="hero-subtitle">Computer Science Graduate | AI & ML Enthusiast | Full-Stack Developer</p>
+                    <p class="hero-description">Results-driven professional with expertise in AI, machine learning, and
+                        web development</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn--primary">Get In Touch</a>
+                        <!-- <a href="#projects" class="btn btn--outline">View Projects</a> -->
+                        <a href="./New_resume_Career_Flow.pdf" class="btn btn--outline" target="_blank">View Resume</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="profile-photo">
+                        <!-- <div class="photo-placeholder">SN</div> -->
+                        <img src="./my-photo.png" alt="A professional photo of Shravan Nikhil" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Results-driven Computer Science graduate with hands-on experience in AI, machine learning, and
+                        full-stack web development. Demonstrates strong problem-solving skills, adaptability, and
+                        effective communication through academic projects and internships involving Python, Django, and
+                        data science tools. Eager to contribute to innovative teams by applying technical knowledge,
+                        collaborating effectively, and embracing new challenges to advance organizational goals with
+                        energy and commitment.</p>
+                </div>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <span class="detail-label">Email:</span>
+                        <span class="detail-value">nikhilshravan71@gmail.com</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Phone:</span>
+                        <span class="detail-value">+919032720873</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Location:</span>
+                        <span class="detail-value">India</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">LinkedIn:</span>
+                        <a href="#" class="detail-value detail-link" target="_blank">LinkedIn Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-list">
+                <div class="education-item card">
+                    <div class="card__body">
+                        <div class="education-header">
+                            <h3 class="education-degree">B.Tech in CSE (AI&ML)</h3>
+                            <span class="education-duration">Jan '21 — Jan '25</span>
+                        </div>
+                        <p class="education-institution">VCE</p>
+                        <p class="education-gpa">GPA: 8.16</p>
+                    </div>
+                </div>
+                <div class="education-item card">
+                    <div class="card__body">
+                        <div class="education-header">
+                            <h3 class="education-degree">Intermediate in Physics, Chemistry, & Mathematics</h3>
+                            <span class="education-duration">Jan '19 — Jan '21</span>
+                        </div>
+                        <p class="education-institution">Sri Vedha Saraswathi</p>
+                        <p class="education-gpa">GPA: 95.2%</p>
+                    </div>
+                </div>
+                <div class="education-item card">
+                    <div class="card__body">
+                        <div class="education-header">
+                            <h3 class="education-degree">SSC</h3>
+                            <span class="education-duration">2019 — Jan '19</span>
+                        </div>
+                        <p class="education-institution">Ravi Teja Talent</p>
+                        <p class="education-gpa">GPA: 9.7</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-list">
+                <div class="experience-item card">
+                    <div class="card__body">
+                        <div class="experience-header">
+                            <h3 class="experience-title">Online Internship</h3>
+                            <span class="experience-duration">Aug '24 — Oct '24</span>
+                        </div>
+                        <p class="experience-company">NIELIT</p>
+                        <p class="experience-description">Refined a spam email detection model using NLP (TF-IDF) and
+                            Naive Bayes, achieving 98% accuracy through rigorous evaluation of precision, recall, and F1
+                            score metrics. Benchmarked ML algorithms (SVM, Random Forests) for scalability, optimizing
+                            real-time email filtering to enhance security and productivity in communication platforms.
+                        </p>
+                    </div>
+                </div>
+                <div class="experience-item card">
+                    <div class="card__body">
+                        <div class="experience-header">
+                            <h3 class="experience-title">Salesforce Developer Virtual Internship</h3>
+                            <span class="experience-duration">Oct '23 — Nov '23</span>
+                        </div>
+                        <p class="experience-company">SmartInternz</p>
+                        <p class="experience-description">Developed Salesforce application using LWC and API
+                            integrations. Implemented Process automation workflows, created and managed custom objects,
+                            fields, layouts. Enhanced Organizational setups, conducted testing and Debugging using Apex
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">C++</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Frameworks & Libraries</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">DjangoRestFramework(DRF)</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Databases</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">NOSQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Tools & IDEs</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Jupyter Notebook</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-item card">
+                    <div class="card__body">
+                        <div class="project-header">
+                            <h3 class="project-title">ShareWEB</h3>
+                            <span class="project-duration">Oct '24 — Dec '24</span>
+                        </div>
+                        <p class="project-description">Design and Deployed a user friendly web platform for content
+                            sharing. The platform facilitates interaction among users by enabling them to view posts
+                            shared by others in a secure environment.</p>
+                        <p class="project-tech">HTML, CSS, Django, Python</p>
+                        <a href="#" class="btn btn--sm btn--outline project-link" target="_blank">View Project</a>
+                    </div>
+                </div>
+                <div class="project-item card">
+                    <div class="card__body">
+                        <div class="project-header">
+                            <h3 class="project-title">Automated Attendance System</h3>
+                            <span class="project-duration">Apr '24 — Jun '24</span>
+                        </div>
+                        <p class="project-description">A Real Time Face Recognition from video feed, marking the
+                            attendance in a CSV or Excel file.</p>
+                        <p class="project-tech">Python, Face Recognition, NumPy, Pickle</p>
+                        <a href="#" class="btn btn--sm btn--outline project-link" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-item card">
+                    <div class="card__body">
+                        <h3 class="certification-title">Google Cloud Career Launchpad Cloud Engineer track</h3>
+                        <p class="certification-issuer">Google Cloud Skills Boost</p>
+                        <p class="certification-date">Mar '25</p>
+                        <a href="#" class="btn btn--sm btn--outline certification-link" target="_blank">View
+                            Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-item card">
+                    <div class="card__body">
+                        <h3 class="certification-title">Python Django Web Application Dev with Coding Exercises</h3>
+                        <p class="certification-issuer">Udemy</p>
+                        <p class="certification-date">Mar '25</p>
+                        <a href="#" class="btn btn--sm btn--outline certification-link" target="_blank">View
+                            Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-item card">
+                    <div class="card__body">
+                        <h3 class="certification-title">Java Full Stack</h3>
+                        <p class="certification-issuer">Wipro</p>
+                        <p class="certification-date">Oct '24</p>
+                        <a href="#" class="btn btn--sm btn--outline certification-link" target="_blank">View
+                            Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-item card">
+                    <div class="card__body">
+                        <h3 class="certification-title">Smart Coder</h3>
+                        <p class="certification-issuer">Smart Interviews</p>
+                        <p class="certification-date">Jun '24</p>
+                        <a href="#" class="btn btn--sm btn--outline certification-link" target="_blank">View
+                            Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-item card">
+                    <div class="card__body">
+                        <h3 class="certification-title">Google Cloud career readiness Associate Cloud Engineer track
+                        </h3>
+                        <p class="certification-issuer">Google Cloud Skills Boost</p>
+                        <p class="certification-date">May '24</p>
+                        <a href="#" class="btn btn--sm btn--outline certification-link" target="_blank">View
+                            Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-item card">
+                    <div class="card__body">
+                        <h3 class="certification-title">Job Ready Employability Skills</h3>
+                        <p class="certification-issuer">wadhwani Foundation</p>
+                        <p class="certification-date">May '24</p>
+                        <a href="#" class="btn btn--sm btn--outline certification-link" target="_blank">View
+                            Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-item card">
+                    <div class="card__body">
+                        <h3 class="certification-title">Crash Course on Python</h3>
+                        <p class="certification-issuer">Coursera</p>
+                        <p class="certification-date">Jun '23</p>
+                        <a href="#" class="btn btn--sm btn--outline certification-link" target="_blank">View
+                            Certificate</a>
+                    </div>
+                </div>
+                <div class="certification-item card">
+                    <div class="card__body">
+                        <h3 class="certification-title">Programming, Data Structures and Algorithms Using Python</h3>
+                        <p class="certification-issuer">NPTEL</p>
+                        <p class="certification-date">Sep '22</p>
+                        <a href="#" class="btn btn--sm btn--outline certification-link" target="_blank">View
+                            Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="publication-item card">
+                <div class="card__body">
+                    <h3 class="publication-title">Harvest Prediction by KNN Classification</h3>
+                    <p class="publication-journal">Nano World Journal</p>
+                    <p class="publication-date">Dec '23</p>
+                    <p class="publication-description">This research paper explores the use of machine learning,
+                        specifically the K-Nearest Neighbor algorithm, for crop yield prediction. It provides a tool for
+                        farmers to input soil conditions and receive recommendations for the most suitable crops,
+                        enhancing agricultural productivity and sustainability.</p>
+                    <a href="#" class="btn btn--sm btn--outline publication-link" target="_blank">Read Paper</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <p>nikhilshravan71@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <p>+919032720873</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Location</h3>
+                        <p>India</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Social</h3>
+                        <a href="#" class="social-link" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contact-form" class="contact-form" action="https://api.web3forms.com/submit"
+                        method="POST">
+                        <input type="hidden" name="access_key" value="ac58f4d8-2383-4297-a3ab-c2de91877d11">
+
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject</label>
+                            <input type="text" id="subject" name="subject" class="form-control" required>
+                            <span class="error-message" id="subject-error"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                            <span class="error-message" id="message-error"></span>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                    <div id="form-status" class="form-status hidden"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Shravan Nikhil. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
